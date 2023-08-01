@@ -1,0 +1,117 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: white;
+
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 1420px;
+    box-shadow: 0px 5px 5px 5px rgb(5, 5, 5, 0.2);
+    height: 100%;
+    min-height: 100vh;
+    border-radius: 50px;
+}
+
+h1 {
+    font-family: 'Open Sans';
+    font-weight: 800;
+    color: white;
+    padding: 10px;
+    margin-top: 0;
+}
+
+.position_h1 {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(240, 79, 79);
+    border-radius: 50px;
+}
+
+.text_vvod {
+    padding: 7px;
+    width: 86%;
+    height: 45px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.btn-vvod {
+    padding: 7px 30px;
+    cursor: pointer;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    height: 45px;
+    font-size: 20px;
+}
+
+.pole_position {
+    max-height: 45px;
+}
+
+.vivod {
+    text-align: left;
+    padding: 20px 0px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    height: 45px;
+    font-size: 20px;
+    width: 100%;
+}
+
+.position {
+    margin: 0 100px;
+}
+
+.vivod_str {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    height: 45px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.062);
+    vertical-align: middle;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+}
+
+.delete-btn {
+    cursor: pointer;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    background-image: url('free-icon-cross-mark-17047.png');
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: none;
+    border-radius: 10px;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+
+.delete-btn:hover {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
